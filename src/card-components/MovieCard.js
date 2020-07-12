@@ -32,7 +32,6 @@ export default class MovieCard extends Component {
   render() {
     return (
       <div className="movie-card">
-        {/* which component should receive which props? */}
         <CardFront backgroundImage={this.props.poster} />
         <CardBack title={this.props.title} genres={this.props.genres} rating={this.props.rating}/>
       </div>
